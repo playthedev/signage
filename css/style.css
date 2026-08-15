@@ -334,7 +334,9 @@ section{padding:clamp(60px,9vw,110px) 0;}
 .footer-col{display:flex;flex-direction:column;gap:.7rem;}
 .footer-col a{font-size:.9rem;color:var(--muted-light);transition:color .2s ease;}
 .footer-col a:hover{color:var(--gold-400);}
-.footer-bottom-inner{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.6rem;padding:22px 0;font-size:.82rem;color:#7d879b;}
+.footer-bottom-inner{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:.4rem 1.4rem;padding:22px 0;font-size:.82rem;color:#7d879b;text-align:center;}
+.footer-bottom-inner a{color:#7d879b;text-decoration:underline;text-underline-offset:2px;transition:color .2s ease;}
+.footer-bottom-inner a:hover{color:var(--gold-400);}
 
 /* ============ FLOATING WHATSAPP ============ */
 .wa-float{
